@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Lockdown</string>
     <string name="action_enter_lockdown">Enter Lockdown</string>
-    <string name="action_grant_permission">Accept</string>
+    <string name="action_grant_permission">Grant permission</string>
     <string name="action_add_shortcut">Add shortcut</string>
-    <string name="request_admin_permission_title">Welcome aboard</string>
+    <string name="request_admin_permission_title">Enable the app</string>
     <string name="request_admin_permission_msg">Please grant the permission to turn your display off when you want to enter lockdown.</string>
     <string name="remove_admin_permission_warning">Remove admin permission will stop Lockdown.</string>
     <string name="text_request_dev">This permission is required to turn your display off when you want to enter lockdown.</string>
-    <string name="all_set_title">Well done!</string>
-    <string name="all_set_msg">To enter lockdown please add the dedicated shortcut to your launcher.\nIn order to uninstall this app you need to revoke the device administration permission.</string>
+    <string name="all_set_title">Enter Lockdown</string>
+    <string name="all_set_msg">Lock your device and temporarily disable smart access and fingerprint unlocking until your next login.</string>
 </resources>

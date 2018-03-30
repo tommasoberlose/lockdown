@@ -11,6 +11,6 @@
         <intent
             android:action="com.tommasoberlose.lockdown.action.ENTER_LOCKDOWN"
             android:targetPackage="com.tommasoberlose.lockdown"
-            android:targetClass="com.tommasoberlose.lockdown.ui.MainActivity" />
+            android:targetClass="com.tommasoberlose.lockdown.ui.activities.MainActivity" />
     </shortcut>
 </shortcuts>
