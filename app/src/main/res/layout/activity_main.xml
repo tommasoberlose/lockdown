@@ -42,7 +42,7 @@
         android:orientation="vertical"
         android:layout_margin="32dp"
         android:id="@+id/bottom_container"
-        android:layout_above="@+id/action_more">
+        android:layout_alignParentBottom="true">
         <LinearLayout
             android:layout_width="32dp"
             android:layout_height="2dp"
@@ -80,21 +80,7 @@
             android:paddingEnd="12dp"
             android:paddingStart="12dp"
             android:layout_gravity="end"
-            android:layout_marginTop="32dp"/>
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"/>
     </LinearLayout>
-
-    <ImageView
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:padding="8dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:background="?android:attr/selectableItemBackgroundBorderless"
-        android:id="@+id/action_more"
-        android:alpha="0.8"
-        android:visibility="invisible"
-        android:src="@drawable/ic_action_more"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
-
 </RelativeLayout>
