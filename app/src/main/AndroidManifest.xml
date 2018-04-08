@@ -41,6 +41,24 @@
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />
             </intent-filter>
         </activity>
+
+
+
+        <service
+            android:name=".services.QuickSettingsService"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/ic_stat_lock"
+            android:label="@string/action_enter_lockdown"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action
+                    android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.ACTIVE_TILE"
+                android:value="true" />
+        </service>
     </application>
 
 </manifest>
