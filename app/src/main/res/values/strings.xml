@@ -4,7 +4,7 @@
     <string name="action_grant_permission">Grant permission</string>
     <string name="action_add_shortcut">Add shortcut</string>
     <string name="request_admin_permission_title">Enable the app</string>
-    <string name="request_admin_permission_msg">Please grant the permission to turn your display off when you want to enter lockdown.</string>
+    <string name="request_admin_permission_msg">We need your permission to turn off your display. Please make this app a device administrator, we will use this permission only when you want to enter lockdown.</string>
     <string name="remove_admin_permission_warning">Remove admin permission will stop Lockdown.</string>
     <string name="text_request_dev">This permission is required to turn your display off when you want to enter lockdown.</string>
     <string name="all_set_title">Enter Lockdown</string>

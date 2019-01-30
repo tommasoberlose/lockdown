@@ -62,7 +62,7 @@
             android:id="@+id/bottom_container_subtitle"
             android:textColor="@android:color/white"
             android:alpha="0.8"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:text="@string/request_admin_permission_msg"/>
         <TextView
